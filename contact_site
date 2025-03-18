@@ -1,0 +1,19 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>Contact List</title>
+</head>
+<body>
+  <h1>Contact List</h1>
+  <ul>
+    <li>kyle Heaphy: 248 514-2162, kyle.heaphy@optimus-us.com</li>
+    <li>Jane Doe: 111 222-3333, jane.doe@example.com</li>
+    <li>John Smith: 444 555-6666, john.smith@example.com</li>
+    <li>Alice Brown: 777 888-9999, alice.brown@example.com</li>
+    <li>Bob Johnson: 101 202-3030, bob.johnson@example.com</li>
+    <li>Carol White: 404 505-6060, carol.white@example.com</li>
+    <li>Dave Black: 707 808-9090, dave.black@example.com</li>
+  </ul>
+</body>
+</html>
