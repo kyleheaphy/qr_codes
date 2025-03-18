@@ -3,27 +3,144 @@
 <head>
   <meta charset="UTF-8">
   <title>Contact List</title>
+  <style>
+    body {
+      font-family: Arial, sans-serif;
+      background: #f5f5f5;
+      color: #333;
+      margin: 0;
+      padding: 20px;
+    }
+    .container {
+      max-width: 900px;
+      margin: auto;
+      background: #fff;
+      padding: 30px;
+      border-radius: 8px;
+      box-shadow: 0 2px 6px rgba(0,0,0,0.1);
+    }
+    h1 {
+      text-align: center;
+      margin-bottom: 40px;
+    }
+    section {
+      margin-bottom: 40px;
+    }
+    section h2 {
+      border-bottom: 2px solid #333;
+      padding-bottom: 10px;
+      margin-bottom: 20px;
+    }
+    ul {
+      list-style: none;
+      padding: 0;
+    }
+    .contact {
+      margin-bottom: 15px;
+      line-height: 1.5;
+    }
+    .contact .name {
+      font-weight: bold;
+    }
+    .contact a {
+      color: #0066cc;
+      text-decoration: none;
+    }
+    .contact a:hover {
+      text-decoration: underline;
+    }
+  </style>
 </head>
 <body>
-  <h1>Contact List</h1>
-  <ul>
-        <li>JERA Contacts</li>
-    <li>Srihar Mantri	          sridhar.mantri@jeraamericas.com	  cell:281-702-5150	281-746-1235<li>
-    <li>Scott Phillips          scott.phillips@jeraamericas.com	  cell:713-504-7209	281-790-5094<li>
-    <li>Jason Kizer:	          jason.kizer@jeraamericas.com	    cell:713-542-0614<li>
-    <li>Nasser Syed:            nasser.syed@jeraamericas.com;	    cell:470-923-4534	832-875-5669<li>
-        <li>Optimus Contacts</li>
-    <li>David Gilbert	          david.gilbert@optimus-us.com	    cell: 214-695-4196<li>	
-    <li>Shannon Carmichael	    shannon.carmichael@optimus-us.com	cell:713-907-9880<li>
-    <li>Roberto Pacini	   	    roberto.pacini@optimus-us.com	    cell:832-477-3191<li>
-    <li>Kyle Heaphy	      	    kyle.heaphy@optimus-us.com	      cell:248-514-2162<li>
-    <li>Andrew Williams	  	    andrew.williams@optimus-us.com	  cell:760-238-7794<li>
-    <li>Jagannath Jayanti (JJ)	jagannath.jayanti@optimus-us.com	cell:352-734-1989<li>
-    <li>Sebastian Maronas	     	sebastian.maronas@optimus-us.com<li>
-        <li>NGHub Contacts</li>
-    <li>NGH Helpdesk	          EDIProd@Enercross.com<li>
-    <li>Vishal Kumar	          Business Contact	vishal.kumar@Enercross.com<li>	
-    <li>Swastick Chatterjee	    Tech Contact	swastick.chatterjee@Enercross.com<li>
-  </ul>
+  <div class="container">
+    <h1>Contact List</h1>
+    
+    <!-- JERA Contacts -->
+    <section id="jera">
+      <h2>JERA Contacts</h2>
+      <ul>
+        <li class="contact">
+          <span class="name">Srihar Mantri</span><br>
+          Email: <a href="mailto:sridhar.mantri@jeraamericas.com">sridhar.mantri@jeraamericas.com</a><br>
+          Cell: 281-702-5150, 281-746-1235
+        </li>
+        <li class="contact">
+          <span class="name">Scott Phillips</span><br>
+          Email: <a href="mailto:scott.phillips@jeraamericas.com">scott.phillips@jeraamericas.com</a><br>
+          Cell: 713-504-7209, 281-790-5094
+        </li>
+        <li class="contact">
+          <span class="name">Jason Kizer</span><br>
+          Email: <a href="mailto:jason.kizer@jeraamericas.com">jason.kizer@jeraamericas.com</a><br>
+          Cell: 713-542-0614
+        </li>
+        <li class="contact">
+          <span class="name">Nasser Syed</span><br>
+          Email: <a href="mailto:nasser.syed@jeraamericas.com">nasser.syed@jeraamericas.com</a><br>
+          Cell: 470-923-4534, 832-875-5669
+        </li>
+      </ul>
+    </section>
+    
+    <!-- Optimus Contacts -->
+    <section id="optimus">
+      <h2>Optimus Contacts</h2>
+      <ul>
+        <li class="contact">
+          <span class="name">David Gilbert</span><br>
+          Email: <a href="mailto:david.gilbert@optimus-us.com">david.gilbert@optimus-us.com</a><br>
+          Cell: 214-695-4196
+        </li>
+        <li class="contact">
+          <span class="name">Shannon Carmichael</span><br>
+          Email: <a href="mailto:shannon.carmichael@optimus-us.com">shannon.carmichael@optimus-us.com</a><br>
+          Cell: 713-907-9880
+        </li>
+        <li class="contact">
+          <span class="name">Roberto Pacini</span><br>
+          Email: <a href="mailto:roberto.pacini@optimus-us.com">roberto.pacini@optimus-us.com</a><br>
+          Cell: 832-477-3191
+        </li>
+        <li class="contact">
+          <span class="name">Kyle Heaphy</span><br>
+          Email: <a href="mailto:kyle.heaphy@optimus-us.com">kyle.heaphy@optimus-us.com</a><br>
+          Cell: 248-514-2162
+        </li>
+        <li class="contact">
+          <span class="name">Andrew Williams</span><br>
+          Email: <a href="mailto:andrew.williams@optimus-us.com">andrew.williams@optimus-us.com</a><br>
+          Cell: 760-238-7794
+        </li>
+        <li class="contact">
+          <span class="name">Jagannath Jayanti (JJ)</span><br>
+          Email: <a href="mailto:jagannath.jayanti@optimus-us.com">jagannath.jayanti@optimus-us.com</a><br>
+          Cell: 352-734-1989
+        </li>
+        <li class="contact">
+          <span class="name">Sebastian Maronas</span><br>
+          Email: <a href="mailto:sebastian.maronas@optimus-us.com">sebastian.maronas@optimus-us.com</a>
+        </li>
+      </ul>
+    </section>
+    
+    <!-- NGHub Contacts -->
+    <section id="nghub">
+      <h2>NGHub Contacts</h2>
+      <ul>
+        <li class="contact">
+          <span class="name">NGH Helpdesk</span><br>
+          Email: <a href="mailto:EDIProd@Enercross.com">EDIProd@Enercross.com</a>
+        </li>
+        <li class="contact">
+          <span class="name">Vishal Kumar</span><br>
+          Business Contact: <a href="mailto:vishal.kumar@Enercross.com">vishal.kumar@Enercross.com</a>
+        </li>
+        <li class="contact">
+          <span class="name">Swastick Chatterjee</span><br>
+          Tech Contact: <a href="mailto:swastick.chatterjee@Enercross.com">swastick.chatterjee@Enercross.com</a>
+        </li>
+      </ul>
+    </section>
+  </div>
 </body>
 </html>
